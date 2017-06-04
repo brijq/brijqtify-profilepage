@@ -16,7 +16,7 @@ class profilePage extends React.Component{
     };
 
   // Add your tracking ID created from https://analytics.google.com/analytics/web/#home/
-  ReactGA.initialize('UA-99996333-1');
+  ReactGA.initialize('UA-00000000-0');
   // This just needs to be called once since we have no routes in this case.
   //ReactGA.pageview(window.location.pathname);
 
