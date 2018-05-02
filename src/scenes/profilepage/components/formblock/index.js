@@ -27,15 +27,46 @@ class formBlock extends React.Component {
                       <div className="col-md-6">
                         <h1 className="block-content">Welcome To Brijqtify!</h1>
                         <p className="form-control-static font-w700 animated">Welcome to my brijqtify!
-                          I'm a web developer and I love creating stuff that solve problems and make your life easier.
-                          Feel free to follow me to know more about me and my projects.
-                          Thanks for stopping by, wish you a great day!</p>
+                            Are you searching for a software engineer with a proven ability to develop high-performance applications and technical innovations?
+                            If so, welcome to brijqtify! My technical expertise includes cross-platform proficiency (Linux, Unix)! Feel Free to know more about me!
+                            Of course, just like any other human, I do have hobbies and love travelling. Feel free to contact me if you will like to find out more
+                            right at the bottom of my page.
+                        </p>
+
+                          <p className="form-control-static font-w700 animated">Whatelse? My own projects and researches.
+                            In my own research and exploration,
+                            I do and explore security projects and experiments on most trusted and widely-acknowledged online cyber security with in-depth technical coverage.
+
+                            Moreover,
+                            I do play with Raspberry Pis and create various projects. Check out my github pages if you are interested in some examples like how to integrate
+                            and relate information with Google Cloud Platform with some simple sensors. If you have hear before Android things, feel free to share with me.
+                        </p>
+
+                          <p className="form-control-static font-w700 animated">What technology is this page build based on?
+                             Brijqtify is build based on ReactJs. The question is why Reactjs? Check this sites out :
+
+                            <li>
+                              https://medium.com/@coderacademy/32-sites-built-with-reactjs-172e3a4bed81
+                            </li>
+                              <li>
+                                  http://madewithreact.com/
+                              </li>
+                            Now you know why:)
+                          </p>
+
 
                         <p className="form-control-static font-w700 animated">
                           <h4 className="h3 text-default-dark">Experience</h4>
+                          <li className="h4 text-info">Software Web Developer at Ohpen Pte Ltd</li>
+                          <p>Leading the head tech solution decision maker based on client's demand.Playing multiple roles on
+                              security compliance role for softwares.
+                              Mainly focuses on web front-end development , CMS (Wordpress, Drupal), Security
+                            Server Development, Google Cloud Services and Google Adwords for marketing work.
+                          </p>
+
                           <li className="h4 text-info">Software Web Developer at Cloudzen Tech</li>
-                          <p>Mainly focuses on web front-end development , Deployment,
-                            Continuous Integration and Unit Testing work and Database handling
+                          <p>Mainly focuses on web front-end development , Deployment In China,
+                              Continuous Integration and Unit Testing work and Database handling
                           </p>
 
                           <h4 className="h3 text-default-dark">Education</h4>
@@ -54,16 +85,7 @@ class formBlock extends React.Component {
                         </p>
 
 
-                        <h3>Skills</h3>
-                        <ul>Javascript</ul>
-                        <ul>Java</ul>
-                        <ul>Python</ul>
-                        <ul>React Js</ul>
-                        <ul>Android</ul>
-                        <ul>Google Cloud</ul>
-                        <ul>Raspbian</ul>
 
-                        <p>Many Others...</p>
                         <br/>
                         <br/>
                         <br/>

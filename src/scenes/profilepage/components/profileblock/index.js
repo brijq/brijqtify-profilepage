@@ -63,19 +63,19 @@ class profileBlock extends React.Component{
                 </div>
               </div>
               <div className="col-xs-6 col-sm-3 fa fa-database">
-                <div className="font-w700 text-gray-darker animated fadeInDown">Non SQL / SQL
+                <div className="font-w700 text-gray-darker animated fadeInDown">Database
                 </div>
               </div>
               <div className="col-xs-6 col-sm-3 fa fa-bullseye">
-                <div className="font-w700 text-gray-darker animated fadeInDown">Darts(Target, Unicorn)
+                <div className="font-w700 text-gray-darker animated fadeInDown">CMS
                 </div>
               </div>
               <div className="col-xs-6 col-sm-3 fa fa-fighter-jet">
-                <div className="font-w700 text-gray-darker animated fadeInDown">Aircraft Engineer
+                <div className="font-w700 text-gray-darker animated fadeInDown">DevOps
                 </div>
               </div>
               <div className="col-xs-6 col-sm-3 fa fa-soccer-ball-o">
-                <div className="font-w700 text-gray-darker animated fadeInDown">Arsenal / Barcelona
+                <div className="font-w700 text-gray-darker animated fadeInDown">cryptocurrency
                 </div>
               </div>
               <div className="col-xs-6 col-sm-3 fa fa-car">
