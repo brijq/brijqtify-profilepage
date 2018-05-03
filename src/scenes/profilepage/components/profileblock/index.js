@@ -75,7 +75,7 @@ class profileBlock extends React.Component{
                 </div>
               </div>
               <div className="col-xs-6 col-sm-3 fa fa-soccer-ball-o">
-                <div className="font-w700 text-gray-darker animated fadeInDown">cryptocurrency
+                <div className="font-w700 text-gray-darker animated fadeInDown">Cryptocurrency
                 </div>
               </div>
               <div className="col-xs-6 col-sm-3 fa fa-car">
