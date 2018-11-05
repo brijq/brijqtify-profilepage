@@ -1,5 +1,8 @@
 # brijqtify-profilepage
-This is just a profilepage written in React for learning purposes.
-Vistit this link for demo.
+This website is fully written in React Framework.
+
+This website is my own profile page with all my projects showcase. Feel free to visit and contact me if there are any feedbacks:)
+
+Thank you
 
 https://brijqtify.firebaseapp.com/ 
