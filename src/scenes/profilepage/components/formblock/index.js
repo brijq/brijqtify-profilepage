@@ -23,11 +23,11 @@ class formBlock extends React.Component {
                     <div className="block-content">
                         <div className="fade in active">
                             <div className="rows items-push">
-                                <div className="col-md-12 col-sm-offset-2">
+                                <div className="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8">
                                     <div className="form-group">
-                                        <div className="col-md-7">
+
                                             <div className="block">
-                                                      <h1 className="block-header block-title">Welcome To Brijqtify!</h1>
+                                                      <h1 className="block-header bg-default block-title">Welcome To Brijqtify!</h1>
                                                       <p className="block-content experiencesector">Are you searching for a software engineer with a proven ability to develop high-performance applications and technical innovations?
                                                           If so, welcome to brijqtify! My technical expertise includes cross-platform proficiency (Linux, Unix)! Feel Free to know more about me!
                                                           Of course, just like any other human, I do have hobbies and love travelling. Feel free to contact me if you will like to find out more
@@ -35,7 +35,7 @@ class formBlock extends React.Component {
                                             </div>
 
                                             <div className="block">
-                                                      <h4 className="block-header block-title">Whatelse <img height="50px" src={questionMarkImage}/> My own projects and researches.</h4>
+                                                      <h4 className="block-header bg-default-light block-title">Whatelse <img height="50px" src={questionMarkImage}/> My own projects and researches.</h4>
                                                       <p className="block-content experiencesector">In my own research and exploration,
                                                           I do and explore security projects and experiments on most trusted and widely-acknowledged online cyber security with in-depth technical coverage.
                                                           <br/>
@@ -45,7 +45,7 @@ class formBlock extends React.Component {
                                             </div>
 
                                             <div className="block">
-                                                      <h4 className="block-header block-title">What technology is this page build based on <img height="50px" src={questionMarkImage}/></h4>
+                                                      <h4 className="block-header bg-city block-title">What technology is this page build based on <img height="50px" src={questionMarkImage}/></h4>
                                                       <p className="block-content experiencesector">Brijqtify is build based on ReactJs. The question is why Reactjs? Check this sites out :
 
                                                           <li>
@@ -59,32 +59,31 @@ class formBlock extends React.Component {
                                             </div>
 
                                             <div className="block">
-                                                      <p className="form-control-static font-w700 animated">
-                                                          <h4 className="block-header block-title">Experience</h4>
-                                                          <h2 className="h4 text-info block-header block-title experiencesector">Current</h2>
-                                                          <li className="h4 text-info block-content experiencesector">Full-Stack Developer at Prodigious Worldwide</li>
+
+                                                          <h4 className="block-header bg-info block-title">Experience</h4>
+                                                          <li className="h4 text-default-dark block-content experiencesector bg-success"><strong>Current:</strong> Full-Stack Developer at Prodigious Worldwide</li>
                                                           <p className="block-content">Working on projects that are based on clients requirements which includes<br/>
                                                           various platforms including front end and back end tasks.
                                                           </p>
 
 
-                                                          <li className="h4 text-info block-content experiencesector">Software Web Developer at Ohpen Pte Ltd</li>
+                                                          <li className="h4 text-default-dark block-content experiencesector bg-success">Software Web Developer at Ohpen Pte Ltd</li>
                                                           <p className="block-content">Leading the head tech solution decision maker based on clients demand.<br/>
                                                               Playing multiple roles on security compliance role for softwares. Mainly<br/>
                                                               focuses on web front-end development , CMS (Wordpress, Drupal), Security <br/>
                                                               Server Development, Google Cloud Services and Google Adwords for marketing work.
                                                           </p>
 
-                                                          <li className="h4 text-info block-content experiencesector">Software Web Developer at Cloudzen Tech</li>
+                                                          <li className="h4 text-default-dark block-content experiencesector bg-success">Software Web Developer at Cloudzen Tech</li>
                                                           <p className="block-content">Mainly focuses on web front-end development , Deployment In China, Continuous<br/>
                                                               Integration and Unit Testing work and Database handling
                                                           </p>
-                                                      </p>
+
                                             </div>
 
                                             <div className="block">
-                                                          <p className="form-control-static font-w700 animated">
-                                                            <h4 className="h4 block-content experiencesector">Education</h4>
+
+                                                            <h4 className="h4 block-content experiencesector bg-flat-light">Education</h4>
                                                             <li className="h4 text-info block-content experiencesector">Lithan Academy</li>
                                                             <p className="block-content">Full Stack Advanced Web Developer</p>
                                                             <li className="h4 text-info block-content experiencesector">SIM University/RMIT University</li>
@@ -96,19 +95,18 @@ class formBlock extends React.Component {
                                                                 Singapore Youth Flying Club
                                                           </p>
                                                           <br/>
-                                                          </p>
+
 
                                             </div>
-                                            <div className="block">
-                                                          <h3 className="h3 block-content experiencesector text-center"><a href="/projects"><img width="300px" height="200px" src={gifImage}/></a>
+                                            <a className="block block-rounded block-link-rotate bg-gray" href="/projects">
+                                                          <h3 className="h3 block-content experiencesector text-center bg-gray"><a href="/projects"><img  height="200px" src={gifImage}/></a>
                                                           </h3>
-                                                          <h4 className="block-content text-center lastsegment">to find out more on my brand new Projects Page</h4>
-                                            </div>
+                                                          <h4 className="block-content text-center lastsegment bg-gray">to find out more on my brand new Projects Page</h4>
+                                            </a>
 
 
                                         </div>
                                     </div>
-                                </div>
                             </div>
                         </div>
 
