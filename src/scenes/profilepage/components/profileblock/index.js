@@ -2,7 +2,7 @@
  * Created by brijq on 24/5/17.
  */
 import React from 'react'
-import profilePic from '../../../../../src/images/IMG_0034.JPG'
+import profilePic from '../../../../images/IMG_0034.JPG'
 
 class profileBlock extends React.Component{
   render(){
