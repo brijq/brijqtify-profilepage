@@ -6748,4 +6748,8 @@ button.close {
         display: none !important;
     }
 }
+
+.bullet li {
+  list-style-position: inside;
+}
 /*# sourceMappingURL=bootstrap.css.map */
