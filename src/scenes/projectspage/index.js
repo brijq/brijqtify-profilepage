@@ -3,6 +3,8 @@
  */
 import React from 'react'
 import Movie from '../../images/IMG_5225.MOV'
+import RainbowImage from '../../images/IMG_0055.jpg'
+import questionMarkImage from '../../images/questionmark.gif'
 
 class projectsPage extends React.Component{
     render(){
@@ -23,19 +25,56 @@ class projectsPage extends React.Component{
                                                   <p className="block-content experiencesector">Contact me at brijq91@gmail.com</p>
                                         </div>
                             </div>
-                            <div className="col-md-5">
+                            <div className="col-xs-12 col-sm-12 col-md-6">
                                         <div className="block">
-                                                  <h1 className="block-header block-title">Google Assistant Voice Kit!</h1>
+                                                  <h1 className="block-header block-title bg-info">Google Assistant Voice Kit!</h1>
                                                   <video width="400" height="300" controls>
                                                       <source className="block-content experiencesector" src={Movie} type="video/mp4">
                                                       </source>
                                                   </video>
                                                   <h3 className="h3 text-info block-header block-title"> Hey Google Tell Me A Joke !</h3>
-                                                  <p className="block-content experiencesector">This Voice Kit is a self made kit from Google which I build with my
+                                                  <p className="block-content experiencesector"><strong> Google AIY Project</strong><br/><br/>
+                                                   This Voice Kit is a self made kit from Google which I build with my
                                                    own natural language processor and connect it to the Google Assistant. All of this fits in a handy little cardboard cube,
-                                                   powered by a Raspberry Pi.<br/><br/>
+                                                   powered by a Raspberry Pi.<br/>
+                                                   Don;t wait now, build your very own customise Google Assistant and have a taste of having your own personal assistant!
+                                                   </p>
 
-                                                   Check it out <a href="https://aiyprojects.withgoogle.com/voice/">here</a> for more details!
+                                                   <p className="block-content pointform"><strong>What is required</strong><img height="25px" src={questionMarkImage}/></p>
+                                                   <div className="bullet block-content pointform">
+                                                     <ul>
+                                                       <li>Raspberry Pi 2/3</li>
+                                                       <li>AIY Voice Kit</li>
+                                                     </ul>
+                                                   </div>
+
+                                                  <p className="block-content experiencesector">
+                                                    Check it out <a href="https://aiyprojects.withgoogle.com/voice/">here</a> for more details!
+                                                  </p>
+
+                                        </div>
+                            </div>
+                            <div className="col-xs-12 col-sm-12 col-md-6">
+                                        <div className="block">
+                                                  <h1 className="block-header block-title bg-info">Your Own Personal Themometer!</h1>
+                                                  <img className="projectsphoto" height="275px" src={RainbowImage}/>
+                                                  <h3 className="h3 text-info block-header block-title"> Whats my room temperature now <img height="25px" src={questionMarkImage}/></h3>
+                                                  <p className="block-content experiencesector"><strong>Getting Started with Rainbow HAT</strong><br/><br/>
+                                                  Rainbow HAT's rainbow is a single sweep of 7 APA102 RGB LED pixels that can be controlled individually through the Rainbow HAT Python library.
+                                                  The BMP280 sensor on Rainbow HAT measures both temperature and pressure. It's really simple to read the current temperature and pressure.<br/>
+                                                  Powered by a raspberry pi zero.
+                                                  </p>
+
+                                                  <p className="block-content pointform"><strong>What is required</strong><img height="25px" src={questionMarkImage}/></p>
+                                                  <div className="bullet block-content pointform">
+                                                    <ul>
+                                                      <li>Raspberry Pi zero</li>
+                                                      <li>Rainbow HAT with Android Things</li>
+                                                    </ul>
+                                                  </div>
+
+                                                  <p className="block-content experiencesector">
+                                                    Check it out <a href="https://shop.pimoroni.com/products/rainbow-hat-for-android-things">here</a> for more details!
                                                   </p>
                                         </div>
                             </div>
