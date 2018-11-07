@@ -6862,10 +6862,15 @@ a.block.block-link-hover3:active {
   width: 128px;
   height: 128px;
 }
+.img-avatar.img-avatar256 {
+  width: 170px;
+  height: 170px;
+}
 .img-avatar-thumb {
   margin: 5px;
   -webkit-box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.4);
   box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.4);
+  margin-bottom: -40px;
 }
 .img-rounded {
   border-radius: 4px;
@@ -7053,7 +7058,7 @@ a.block.block-link-hover3:active {
   transform: scale(1);
 }
 .push-5 {
-  margin-bottom: 5px !important;
+  margin-bottom: -30px !important;
 }
 .push-5-t {
   margin-top: 5px !important;
@@ -11576,4 +11581,16 @@ div.tagsinput span.tag a:hover {
 
 .pointform{
   margin-top:-50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .photo{
+    width:280px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .words{
+    margin-top: 10px
+  }
 }
