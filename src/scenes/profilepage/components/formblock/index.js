@@ -30,23 +30,26 @@ class formBlock extends React.Component {
                                                       <h1 className="block-header bg-default block-title">Welcome To Brijqtify!</h1>
                                                       <p className="block-content experiencesector">Are you searching for a software engineer with a proven ability to develop high-performance applications and technical innovations?
                                                           If so, welcome to brijqtify! My technical expertise includes cross-platform proficiency (Linux, Unix)! Feel Free to know more about me!
-                                                          Of course, just like any other human, I do have hobbies and love travelling. Feel free to contact me if you will like to find out more
-                                                          right at the bottom of my page.</p>
+                                                          Of course, just like any other human, I do have hobbies and love travelling. Feel free to contact me right at the bottom of the page.</p>
                                             </div>
 
                                             <div className="block">
-                                                      <h4 className="block-header bg-default-light block-title">Whatelse <img height="50px" src={questionMarkImage}/> My own projects and researches.</h4>
-                                                      <p className="block-content experiencesector">In my own research and exploration,
-                                                          I do and explore security projects and experiments on most trusted and widely-acknowledged online cyber security with in-depth technical coverage.
-                                                          <br/>
-                                                          Moreover,
-                                                          I do play with Raspberry Pis and create various projects. Check out my github pages if you are interested in some examples like how to integrate
-                                                          and relate information with Google Cloud Platform with some simple sensors. If you have hear before Android things, feel free to share with me.</p>
+                                                      <h4 className="block-header bg-default-light block-title">Whatelse <img height="50px" src={questionMarkImage}/> More About Me</h4>
+                                                      <p className="block-content experiencesector"><strong>Development Work</strong> <br/><br/> I have a full stack developer as mainly deal with ReactJs for frontend and Node JS for backend. Development Operations will be mostly
+                                                          on Google Cloud Platform.<br/>
+                                                          Moreover, I deal with popular CMS systems like Drupal & Wordpress and include hosting work too!<br/><br/>
+
+                                                          <strong>CyberSecurity Hobbies</strong> <br/><br/>In my own research and exploration,I have strong interest in security projects and experiments with cybersecurity. As a result, I do take on Penetration Testing Challenges as my hobby.
+                                                          <br/><br/>
+
+                                                          <strong>Internet Of Things</strong> <br/><br/> In Addition,I deal with Raspberry Pis and create various projects. Check out my github page or the projects page if you are interested in some examples like how to integrate
+                                                          and relate information with Google Cloud Platform with some simple sensors. If you are into Internet of things, sensors or Android Things, this is the section for you.<br/>
+                                                      </p>
                                             </div>
 
                                             <div className="block">
                                                       <h4 className="block-header bg-city block-title">What technology is this page build based on <img height="50px" src={questionMarkImage}/></h4>
-                                                      <p className="block-content experiencesector">Brijqtify is build based on ReactJs. The question is why Reactjs? Check this sites out :
+                                                      <p className="block-content experiencesector">Brijqtify is build based on <strong>ReactJs</strong>. The question is why Reactjs? Check this sites out :
 
                                                           <li>
                                                               https://medium.com/@coderacademy/32-sites-built-with-reactjs-172e3a4bed81
@@ -99,9 +102,9 @@ class formBlock extends React.Component {
 
                                             </div>
                                             <a className="block block-rounded block-link-rotate bg-gray" href="/projects">
-                                                          <h3 className="h3 block-content experiencesector text-center bg-gray"><a href="/projects"><img  height="200px" src={gifImage}/></a>
+                                                          <h3 className="h3 block-content experiencesector text-center bg-info"><a href="/projects"><img  height="200px" src={gifImage}/></a>
                                                           </h3>
-                                                          <h4 className="block-content text-center lastsegment bg-gray">to find out more on my brand new Projects Page</h4>
+                                                          <h4 className="block-content text-center lastsegment bg-info">to find out more on my brand new Projects Page</h4>
                                             </a>
 
 
