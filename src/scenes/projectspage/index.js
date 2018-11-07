@@ -5,6 +5,7 @@ import React from 'react'
 import Movie from '../../images/IMG_5225.MOV'
 import RainbowImage from '../../images/IMG_0055.jpg'
 import questionMarkImage from '../../images/questionmark.gif'
+import brijqtifyImage from '../../images/brijqtify.gif'
 
 class projectsPage extends React.Component{
     render(){
@@ -15,20 +16,16 @@ class projectsPage extends React.Component{
                 <div className="hero">
                     <div className="hero-inner text-center">
                         <div className="content content-full bg-gray-light overflow-hidden">
-                            <div className="py-4">
-                                <h1 className="display-1 text-city" data-toggle="appear" data-className="animated flipInX">My Projects To Share</h1>
-                                <h2 className="h4 font-w300 text-muted mb-5" data-toggle="appear" data-className="animated fadeInUp">Please feel free to contact me if there are any questions</h2>
-                            </div>
                             <div className="col-md-12 privacyPagecontent">
                                         <div className="block">
-                                                  <h1 className="block-header block-title">Welcome To Brijqtify Projects Page!</h1>
+                                                  <h1 className="h2 block-header block-title"><strong>Welcome To <img src={brijqtifyImage}/> Projects Page!</strong></h1>
                                                   <p className="block-content experiencesector">Contact me at brijq91@gmail.com</p>
                                         </div>
                             </div>
                             <div className="col-xs-12 col-sm-12 col-md-6">
                                         <div className="block">
                                                   <h1 className="block-header block-title bg-info">Google Assistant Voice Kit!</h1>
-                                                  <video width="400" height="300" controls>
+                                                  <video className="photo" width="400" height="300" controls>
                                                       <source className="block-content experiencesector" src={Movie} type="video/mp4">
                                                       </source>
                                                   </video>
@@ -40,8 +37,8 @@ class projectsPage extends React.Component{
                                                    Don;t wait now, build your very own customise Google Assistant and have a taste of having your own personal assistant!
                                                    </p>
 
-                                                   <p className="block-content pointform"><strong>What is required</strong><img height="25px" src={questionMarkImage}/></p>
-                                                   <div className="bullet block-content pointform">
+                                                   <p className="block-content pointform words"><strong>What is required</strong><img height="25px" src={questionMarkImage}/></p>
+                                                   <div className="bullet block-content pointform words">
                                                      <ul>
                                                        <li>Raspberry Pi 2/3</li>
                                                        <li>AIY Voice Kit</li>
@@ -57,7 +54,7 @@ class projectsPage extends React.Component{
                             <div className="col-xs-12 col-sm-12 col-md-6">
                                         <div className="block">
                                                   <h1 className="block-header block-title bg-info">Your Own Personal Themometer!</h1>
-                                                  <img className="projectsphoto" height="275px" src={RainbowImage}/>
+                                                  <img className="projectsphoto photo" height="275px" src={RainbowImage}/>
                                                   <h3 className="h3 text-info block-header block-title"> Whats my room temperature now <img height="25px" src={questionMarkImage}/></h3>
                                                   <p className="block-content experiencesector"><strong>Getting Started with Rainbow HAT</strong><br/><br/>
                                                   Rainbow HAT's rainbow is a single sweep of 7 APA102 RGB LED pixels that can be controlled individually through the Rainbow HAT Python library.
@@ -65,8 +62,8 @@ class projectsPage extends React.Component{
                                                   Powered by a raspberry pi zero.
                                                   </p>
 
-                                                  <p className="block-content pointform"><strong>What is required</strong><img height="25px" src={questionMarkImage}/></p>
-                                                  <div className="bullet block-content pointform">
+                                                  <p className="block-content pointform words"><strong>What is required</strong><img height="25px" src={questionMarkImage}/></p>
+                                                  <div className="bullet block-content pointform words">
                                                     <ul>
                                                       <li>Raspberry Pi zero</li>
                                                       <li>Rainbow HAT with Android Things</li>
