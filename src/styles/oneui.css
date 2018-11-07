@@ -11588,6 +11588,12 @@ div.tagsinput span.tag a:hover {
     width:280px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .photomessage{
+    width:300px;
+    margin-right: 40px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .words{
