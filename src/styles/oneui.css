@@ -11566,6 +11566,18 @@ div.tagsinput span.tag a:hover {
    margin-top:20px;
 }
 
+.educationblock{
+   margin-top:-15px !important;
+   margin-left:10px;
+   margin-bottom: 5px;
+}
+
+.educationblocktitle{
+   padding-bottom:5px;
+   padding-top:5px;
+   padding-left:30px;
+}
+
 .lastsegment{
    margin-top:-80px;
    padding-bottom: 50px;
@@ -11575,12 +11587,25 @@ div.tagsinput span.tag a:hover {
    padding-bottom: 50px;
 }
 
+.lastsegmentprivacyforblock{
+   padding-bottom: 30px;
+}
+
+.forfooter{
+   padding-bottom: 20px;
+   font-size:30px;
+}
+
 .projectsphoto{
   margin-top:30px;
 }
 
 .pointform{
   margin-top:-50px;
+}
+
+.iconsize{
+  font-size: 40px;
 }
 
 @media only screen and (max-width: 600px) {
