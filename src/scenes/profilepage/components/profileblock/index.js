@@ -22,7 +22,7 @@ class profileBlock extends React.Component{
           </div>
         </div>
           <div className="block-content text-center">
-            <h2 className="pull-5 list-timeline list-timeline-time"><img className="photomessage" src={messagePic}/></h2>
+            <img className="photomessage" src={messagePic}/>
           </div>
       </div>
 
