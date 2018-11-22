@@ -32,9 +32,9 @@ class formBlock extends React.Component {
                                                   Of course, just like any other human, I do have hobbies and love travelling. Feel free to contact me right at the bottom of the page.</p>
                                     </div>
                                     <div className="block">
-                                                  <h4 className="block-header block-title text-center bg-gray">Whatelse <img height="50px" src={questionMarkImage}/>I Explore</h4>
+                                                  <h4 className="block-header block-title text-center bg-gray">Whatelse <img height="50px" src={questionMarkImage}/>I Explore / Do</h4>
 
-                                                  <div className="col-md-4 col-xl-3 projectsphoto">
+                                                  <div className="col-md-3 col-xl-3 projectsphoto">
                                                     <a className="block block-link-rotate text-center" href="javascript:void(0)">
                                                       <div className="block-header">
                                                         <h3 className="block-title"> <span className="fa fa-laptop iconsize"/>  Development Work</h3>
@@ -60,22 +60,22 @@ class formBlock extends React.Component {
                                                     </a>
                                                   </div>
 
-                                                  <div className="col-md-4 col-xl-3 projectsphoto">
+                                                  <div className="col-md-3 col-xl-3 projectsphoto">
                                                     <a className="block block-link-rotate text-center" href="javascript:void(0)">
                                                       <div className="block-header">
                                                         <h3 className="block-title"><span className="fa fa-code iconsize"/>  CyberSecurity Hobbies</h3>
                                                       </div>
                                                       <div className="block-content bg-primary">
                                                         <div className="py-2">
-                                                          <p className="h3 font-w700 text-white mb-2">Pen Testing</p>
+                                                          <p className="h3 font-w700 text-white mb-2">Penetration Testing</p>
                                                         </div>
                                                       </div>
                                                       <div className="block-content">
                                                         <div className="font-size-sm py-2">
-                                                          <p> Kali Os </p>
-                                                          <p> Remote Exploitation </p>
-                                                          <p> Local Privilege Escalation </p>
-                                                          <p> Backend Attacks </p>
+                                                          <p> Exploitation Discovery and Application </p>
+                                                          <p> Malware Cleanup </p>
+                                                          <p> Application / Servers Security Review </p>
+                                                          <p> Pentration Report Finals </p>
                                                         </div>
                                                       </div>
                                                       <div className="block-content block-content-full bg-body-light">
@@ -86,7 +86,7 @@ class formBlock extends React.Component {
                                                     </a>
                                                   </div>
 
-                                                  <div className="col-md-4 col-xl-3 projectsphoto">
+                                                  <div className="col-md-3 col-xl-3 projectsphoto">
                                                     <a className="block block-link-rotate text-center" href="javascript:void(0)">
                                                       <div className="block-header">
                                                         <h3 className="block-title"> <span className="fa fa-lightbulb-o iconsize"/>  Internet Of Things</h3>
@@ -102,6 +102,32 @@ class formBlock extends React.Component {
                                                           <p> Android Things </p>
                                                           <p> Raspbian </p>
                                                           <p> Pi Zero </p>
+                                                        </div>
+                                                      </div>
+                                                      <div className="block-content block-content-full bg-body-light">
+                                                        <a href="mailto:brijq91@gmail.com">
+                                                          <span className="btn btn-square btn-primary px-4">Contact Me</span>
+                                                        </a>
+                                                      </div>
+                                                    </a>
+                                                  </div>
+
+                                                  <div className="col-md-3 col-xl-3 projectsphoto">
+                                                    <a className="block block-link-rotate text-center" href="javascript:void(0)">
+                                                      <div className="block-header">
+                                                        <h3 className="block-title"> <span className="fa fa-server iconsize"/>   Machine Learning</h3>
+                                                      </div>
+                                                      <div className="block-content bg-primary">
+                                                        <div className="py-2">
+                                                          <p className="h3 font-w700 text-white mb-2"> Tensorflow</p>
+                                                        </div>
+                                                      </div>
+                                                      <div className="block-content">
+                                                        <div className="font-size-sm py-2">
+                                                          <p> Integration hosting Google Cloud / TPU </p>
+                                                          <p> Classification / Prediction </p>
+                                                          <p> Image Recognition / Words Prediction </p>
+                                                          <p> Data Trends</p>
                                                         </div>
                                                       </div>
                                                       <div className="block-content block-content-full bg-body-light">
