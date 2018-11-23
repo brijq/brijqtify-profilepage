@@ -9,7 +9,21 @@ import NotFound from './scenes/404page';
 import './styles/bootstrap.css'
 import './styles/oneui.css'
 import profilePic from './images/favicon.png'
+import ReactGA from 'react-ga';
 
+// Add your tracking ID created from https://analytics.google.com/analytics/web/#home/
+ReactGA.initialize('UA-00000000-1');
+
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+// For my projects page
+ReactGA.pageview('/projects');
+
+// For my privacy page
+ReactGA.pageview('/privacy');
+
+// For my home page
+ReactGA.pageview('/');
 
 ReactDOM.render((
     <Router>
