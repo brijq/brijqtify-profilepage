@@ -6,6 +6,7 @@ import Movie from '../../images/IMG_5225.MOV'
 import RainbowImage from '../../images/IMG_0055.jpg'
 import questionMarkImage from '../../images/questionmark.gif'
 import brijqtifyImage from '../../images/brijqtify.gif'
+import dialogflow from '../../images/dialogflow.png'
 
 class projectsPage extends React.Component{
     render(){
@@ -72,6 +73,26 @@ class projectsPage extends React.Component{
 
                                                   <p className="block-content experiencesector">
                                                     Check it out <a href="https://shop.pimoroni.com/products/rainbow-hat-for-android-things">here</a> for more details!
+                                                  </p>
+                                        </div>
+                            </div>
+                            <div className="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+                                        <div className="block">
+                                                  <h1 className="block-header block-title bg-info">ChatBot with Dialogflow!</h1>
+                                                  <img className="projectsphoto photo" height="50px" width="300px" src={dialogflow}/>
+                                                  <h3 className="h3 text-info block-header block-title"> Oh No! Help me convert my temperature<img height="25px" src={questionMarkImage}/></h3>
+                                                  <p className="block-content experiencesector"><strong>Your very own assistant in chatbot! </strong><br/><br/>
+                                                      Give users new ways to interact with your product by building engaging voice and text-based conversational interfaces, such as voice apps and chatbots, powered by AI.
+                                                      Connect with users on your website, mobile app, the Google Assistant, Amazon Alexa, Facebook Messenger, and other popular platforms and devices.
+                                                  </p>
+                                                  <iframe
+                                                      allow="microphone;"
+                                                      width="350"
+                                                      height="430"
+                                                      src="https://console.dialogflow.com/api-client/demo/embedded/26c0bff1-64bf-4390-9a3b-e6eec31c3aea">
+                                                  </iframe>
+                                                  <p className="block-content experiencesector">
+                                                    Check it out <a href="https://dialogflow.com">here</a> for more details!
                                                   </p>
                                         </div>
                             </div>
