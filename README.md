@@ -5,4 +5,4 @@ This website is my own profile page with all my projects showcase. Feel free to 
 
 Thank you
 
-https://brijqtify.firebaseapp.com/ 
+https://brijqtify.ml
