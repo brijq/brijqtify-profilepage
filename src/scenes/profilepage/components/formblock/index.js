@@ -2,7 +2,7 @@
  * Created by brijq on 25/5/17.
  */
 import React from 'react'
-import Movie from '../../../../images/IMG_5225.MOV'
+import Movie from '../../../../images/.IMG_5225.MOV'
 import gifImage from '../../../../images/Click_here.gif'
 import questionMarkImage from '../../../../images/questionmark.gif'
 
