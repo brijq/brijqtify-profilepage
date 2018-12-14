@@ -2,7 +2,6 @@
  * Created by brijq on 26/5/17.
  */
 import React from 'react'
-import ReactGA from 'react-ga';
 import ProfileBlock from './components/profileblock'
 import FormBlock from './components/formblock'
 

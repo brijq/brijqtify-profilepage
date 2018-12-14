@@ -2,7 +2,6 @@
  * Created by brijq on 25/5/17.
  */
 import React from 'react'
-import Movie from '../../../../images/IMG_5225.MOV'
 import gifImage from '../../../../images/Click_here.gif'
 import questionMarkImage from '../../../../images/questionmark.gif'
 
@@ -32,10 +31,10 @@ class formBlock extends React.Component {
                                                   Of course, just like any other human, I do have hobbies and love travelling. Feel free to contact me right at the bottom of the page.</p>
                                     </div>
                                     <div className="block">
-                                                  <h4 className="block-header block-title text-center bg-gray">Whatelse <img height="50px" src={questionMarkImage}/>I Explore / Do</h4>
+                    <h4 className="block-header block-title text-center bg-gray">Whatelse <img height="50px" src={questionMarkImage} alt=''/>I Explore / Do</h4>
 
                                                   <div className="col-md-3 col-xl-3 projectsphoto">
-                                                    <a className="block block-link-rotate text-center" href="javascript:void(0)">
+                                                    <div className="block block-link-rotate text-center">
                                                       <div className="block-header">
                                                         <h3 className="block-title"> <span className="fa fa-laptop iconsize"/>  Development Work</h3>
                                                       </div>
@@ -57,11 +56,11 @@ class formBlock extends React.Component {
                                                           <span className="btn btn-square btn-primary px-4">Contact Me</span>
                                                         </a>
                                                       </div>
-                                                    </a>
+                                                    </div>
                                                   </div>
 
                                                   <div className="col-md-3 col-xl-3 projectsphoto">
-                                                    <a className="block block-link-rotate text-center" href="javascript:void(0)">
+                                                    <div className="block block-link-rotate text-center">
                                                       <div className="block-header">
                                                         <h3 className="block-title"><span className="fa fa-code iconsize"/>  CyberSecurity Hobbies</h3>
                                                       </div>
@@ -83,11 +82,11 @@ class formBlock extends React.Component {
                                                           <span className="btn btn-square btn-primary px-4">Contact Me</span>
                                                         </a>
                                                       </div>
-                                                    </a>
+                                                    </div>
                                                   </div>
 
                                                   <div className="col-md-3 col-xl-3 projectsphoto">
-                                                    <a className="block block-link-rotate text-center" href="javascript:void(0)">
+                                                    <div className="block block-link-rotate text-center">
                                                       <div className="block-header">
                                                         <h3 className="block-title"> <span className="fa fa-lightbulb-o iconsize"/>  Internet Of Things</h3>
                                                       </div>
@@ -109,11 +108,11 @@ class formBlock extends React.Component {
                                                           <span className="btn btn-square btn-primary px-4">Contact Me</span>
                                                         </a>
                                                       </div>
-                                                    </a>
+                                                    </div>
                                                   </div>
 
                                                   <div className="col-md-3 col-xl-3 projectsphoto">
-                                                    <a className="block block-link-rotate text-center" href="javascript:void(0)">
+                                                    <div className="block block-link-rotate text-center">
                                                       <div className="block-header">
                                                         <h3 className="block-title"> <span className="fa fa-server iconsize"/>   Machine Learning</h3>
                                                       </div>
@@ -135,7 +134,7 @@ class formBlock extends React.Component {
                                                           <span className="btn btn-square btn-primary px-4">Contact Me</span>
                                                         </a>
                                                       </div>
-                                                    </a>
+                                                    </div>
                                                   </div>
                                     </div>
                               </div>
@@ -208,7 +207,7 @@ class formBlock extends React.Component {
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                               <div className="form-group">
                                     <a className="block block-rounded block-link-rotate bg-gray" href="/projects">
-                                                  <h3 className="h3 block-content experiencesector text-center bg-info"><a href="/projects"><img  height="180px" src={gifImage}/></a>
+                                                  <h3 className="h3 block-content experiencesector text-center bg-info"><a href="/projects"><img  height="180px" src={gifImage} alt=''/></a>
                                                   </h3>
                                                   <h4 className="block-content text-center lastsegment bg-info">to find out more on my brand new Projects Page</h4>
                                     </a>

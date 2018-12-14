@@ -19,7 +19,7 @@ class projectsPage extends React.Component{
                         <div className="content content-full bg-gray-light overflow-hidden">
                             <div className="col-md-12 privacyPagecontent">
                                         <div className="block">
-                                                  <h1 className="h2 block-header block-title"><strong>Welcome To <img src={brijqtifyImage}/> Projects Page!</strong></h1>
+                                                  <h1 className="h2 block-header block-title"><strong>Welcome To <img src={brijqtifyImage} alt=''/> Projects Page!</strong></h1>
                                                   <p className="block-content experiencesector">Contact me at brijq91@gmail.com</p>
                                         </div>
                             </div>
@@ -38,7 +38,7 @@ class projectsPage extends React.Component{
                                                    Don;t wait now, build your very own customise Google Assistant and have a taste of having your own personal assistant!
                                                    </p>
 
-                                                   <p className="block-content pointform words"><strong>What is required</strong><img height="25px" src={questionMarkImage}/></p>
+                                                   <p className="block-content pointform words"><strong>What is required</strong><img height="25px" src={questionMarkImage} alt=''/></p>
                                                    <div className="bullet block-content pointform words">
                                                      <ul>
                                                        <li>Raspberry Pi 2/3</li>
@@ -55,15 +55,15 @@ class projectsPage extends React.Component{
                             <div className="col-xs-12 col-sm-12 col-md-6">
                                         <div className="block">
                                                   <h1 className="block-header block-title bg-info">Your Own Personal Themometer!</h1>
-                                                  <img className="projectsphoto photo" height="275px" src={RainbowImage}/>
-                                                  <h3 className="h3 text-info block-header block-title"> Whats my room temperature now <img height="25px" src={questionMarkImage}/></h3>
+                                                  <img className="projectsphoto photo" height="275px" src={RainbowImage} alt=''/>
+                                                  <h3 className="h3 text-info block-header block-title"> Whats my room temperature now <img height="25px" src={questionMarkImage} alt=''/></h3>
                                                   <p className="block-content experiencesector"><strong>Getting Started with Rainbow HAT</strong><br/><br/>
                                                   Rainbow HAT's rainbow is a single sweep of 7 APA102 RGB LED pixels that can be controlled individually through the Rainbow HAT Python library.
                                                   The BMP280 sensor on Rainbow HAT measures both temperature and pressure. It's really simple to read the current temperature and pressure.<br/>
                                                   Powered by a raspberry pi zero.
                                                   </p>
 
-                                                  <p className="block-content pointform words"><strong>What is required</strong><img height="25px" src={questionMarkImage}/></p>
+                                                  <p className="block-content pointform words"><strong>What is required</strong><img height="25px" src={questionMarkImage} alt=''/></p>
                                                   <div className="bullet block-content pointform words">
                                                     <ul>
                                                       <li>Raspberry Pi zero</li>
@@ -79,13 +79,13 @@ class projectsPage extends React.Component{
                             <div className="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
                                         <div className="block">
                                                   <h1 className="block-header block-title bg-info">ChatBot with Dialogflow!</h1>
-                                                  <img className="projectsphoto photo" height="50px" width="300px" src={dialogflow}/>
-                                                  <h3 className="h3 text-info block-header block-title"> Oh No! Help me convert my temperature<img height="25px" src={questionMarkImage}/></h3>
+                                                  <img className="projectsphoto photo" height="50px" width="300px" src={dialogflow} alt=''/>
+                                                  <h3 className="h3 text-info block-header block-title"> Oh No! Help me convert my temperature<img height="25px" src={questionMarkImage} alt=''/></h3>
                                                   <p className="block-content experiencesector"><strong>Your very own assistant in chatbot! </strong><br/><br/>
                                                       Give users new ways to interact with your product by building engaging voice and text-based conversational interfaces, such as voice apps and chatbots, powered by AI.
                                                       Connect with users on your website, mobile app, the Google Assistant, Amazon Alexa, Facebook Messenger, and other popular platforms and devices.
                                                   </p>
-                                                  <iframe
+                                                  <iframe title="Tensorflow"
                                                       allow="microphone;"
                                                       width="350"
                                                       height="430"
