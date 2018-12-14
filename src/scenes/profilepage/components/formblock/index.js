@@ -2,10 +2,6 @@
  * Created by brijq on 25/5/17.
  */
 import React from 'react'
-<<<<<<< HEAD
-=======
-import Movie from '../../../../images/.IMG_5225.MOV'
->>>>>>> 6a1430d71ef8919a965bdf99239c442a41263670
 import gifImage from '../../../../images/Click_here.gif'
 import questionMarkImage from '../../../../images/questionmark.gif'
 

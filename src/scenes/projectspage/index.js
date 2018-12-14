@@ -2,7 +2,7 @@
  * Created by brijq on 5/8/18.
  */
 import React from 'react'
-import Movie from '../../images/.IMG_5225.MOV'
+import Movie from '../../images/IMG_5225.MOV'
 import RainbowImage from '../../images/IMG_0055.jpg'
 import questionMarkImage from '../../images/questionmark.gif'
 import brijqtifyImage from '../../images/brijqtify.gif'
