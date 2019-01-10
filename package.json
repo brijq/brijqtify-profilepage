@@ -7,6 +7,7 @@
     "bootstrap-jquery": "^3.3.2",
     "classnames": "^2.2.5",
     "react": "^16.6.3",
+    "react-device-detect": "^1.6.1",
     "react-dom": "^16.6.3",
     "react-favicon": "0.0.14",
     "react-ga": "^2.5.6",
