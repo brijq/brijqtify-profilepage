@@ -11,6 +11,9 @@ import chatbot from '../../images/chatbot.MP4'
 
 
 class projectsPage extends React.Component {
+
+
+
   render() {
     return (
       <body>
@@ -88,7 +91,7 @@ class projectsPage extends React.Component {
                         Connect with users on your website, mobile app, the Google Assistant, Amazon Alexa, Facebook Messenger, and other popular platforms and devices.
                       </p>
 
-                      <video className="photo" width="400" height="600" autoPlay loop>
+                      <video className="photo" width="400" height="600" autoPlay muted loop preload="auto">
                         <source className="block-content experiencesector" src={chatbot} type="video/mp4">
                         </source>
                       </video>
