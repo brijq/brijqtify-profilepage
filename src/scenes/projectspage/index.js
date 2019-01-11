@@ -8,6 +8,8 @@ import questionMarkImage from '../../images/questionmark.gif'
 import brijqtifyImage from '../../images/brijqtify.gif'
 import dialogflow from '../../images/dialogflow.png'
 import chatbot from '../../images/chatbot.MP4'
+import apiphoto from '../../images/apiphoto.jpg'
+import logoreact from '../../images/logoforreact.png'
 import {
   BrowserView,
   MobileView,
@@ -57,6 +59,7 @@ class projectsPage extends React.Component {
 
                     </div>
                   </div>
+
                   <div className="col-xs-12 col-sm-12 col-md-6">
                     <div className="block">
                       <h1 className="block-header block-title bg-info">Your Own Personal Themometer!</h1>
@@ -81,10 +84,10 @@ class projectsPage extends React.Component {
                                                   </p>
                     </div>
                   </div>
-                  <div className="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+
+                  <div className="col-xs-12 col-sm-12 col-md-6">
                     <div className="block">
                       <h1 className="block-header block-title bg-info">ChatBot with Dialogflow!, Integrate it in Facebook Messenger!</h1>
-                      <img className="projectsphoto photo" height="50px" width="300px" src={dialogflow} alt='' />
                       <h3 className="h3 text-info block-header block-title"> Feeling Tired to reply? No Problem Just Allow the bot to handle it! <img height="25px" src={questionMarkImage} alt='' /></h3>
                       <p className="block-content experiencesector"><strong>Your very own assistant in chatbot! </strong><br /><br />
                         Give users new ways to interact with your product by building engaging voice and text-based conversational interfaces, such as voice apps and chatbots, powered by AI.
@@ -105,12 +108,47 @@ class projectsPage extends React.Component {
                         </video>
                       </MobileView>
 
+                      <img className="projectsphoto photo" height="50px" width="300px" src={dialogflow} alt='' />
+
                       <p className="block-content experiencesector">
                         Check it out <a href="https://dialogflow.com">here</a> for more details!
                                                   </p>
                     </div>
                   </div>
+
+                  <div className="col-xs-12 col-sm-12 col-md-6">
+                    <div className="block">
+                      <h1 className="block-header block-title bg-info">How To Combine a NodeJS Back End with a ReactJS Front End App.</h1>
+                      <h3 className="h3 text-info block-header block-title"> Why do we need both Front End Application and Back End Application <img height="25px" src={questionMarkImage} alt='' /></h3>
+                      <p className="block-content experiencesector"><strong>One of the many solutions</strong><br /><br />
+                        In this article, I will like to share on how to build the front and back end of the website using NodeJS for the back end.
+                        We will be using NodeJs to create endpoints, also known as API Endpoints, we also need a database and finally create a 
+                        front end application using React that will post to the database, and also fetch data from it.
+                        
+                        <br /><br />
+                        
+                        Here’s the way this will likely work:
+                        <br/>
+
+                      </p>
+
+                      <p className="block-content pointform words"><strong>Applications / Tools Utilise</strong><img height="25px" src={questionMarkImage} alt='' /></p>
+                      <div className="bullet block-content pointform words">
+                        <ul>
+                          <li>React Js</li>
+                          <li>Node Js</li>
+                          <li>Text Editor</li>
+                          <li>Database</li>
+                        </ul>
+                      </div>
+
+                      <img className="projectsphoto photo" height="425px" src={apiphoto} alt='' />
+                      <img className="projectsphoto photo" height="100px" src={logoreact} alt='' />
+
+                    </div>
+                  </div>
                 </div>
+                
                 <div className="content content-full font-size-sm text-muted">
                   <p className="mb-1">
                     Would you like to let us know about it?
@@ -118,12 +156,10 @@ class projectsPage extends React.Component {
                   Contact me at brijq91@gmail.com or <a class="link-fx" href="/">Go Back to Main Page</a>
                 </div>
               </div>
-            </div>
+              </div>
           </main>
         </div>
-
       </body>
-
     )
   }
 }
