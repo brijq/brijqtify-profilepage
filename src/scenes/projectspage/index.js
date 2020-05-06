@@ -8,6 +8,12 @@ import questionMarkImage from '../../images/questionmark.gif'
 import brijqtifyImage from '../../images/brijqtify.gif'
 import dialogflow from '../../images/dialogflow.png'
 import chatbot from '../../images/chatbot.MP4'
+//import apiphoto from '../../images/apiphoto.jpg'
+//import logoreact from '../../images/logoforreact.png'
+import {
+  BrowserView,
+  MobileView,
+} from "react-device-detect";
 
 class projectsPage extends React.Component {
   render() {
@@ -53,6 +59,7 @@ class projectsPage extends React.Component {
 
                     </div>
                   </div>
+
                   <div className="col-xs-12 col-sm-12 col-md-6">
                     <div className="block">
                       <h1 className="block-header block-title bg-info">Your Own Personal Themometer!</h1>
@@ -77,7 +84,8 @@ class projectsPage extends React.Component {
                                                   </p>
                     </div>
                   </div>
-                  <div className="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+
+                  <div className="col-xs-12 col-sm-12 col-md-6">
                     <div className="block">
                       <h1 className="block-header block-title bg-info">ChatBot with Dialogflow!, Integrate it in Facebook Messenger!</h1>
                       <img className="projectsphoto photo" height="50px" width="300px" src={dialogflow} alt='' />
@@ -87,17 +95,77 @@ class projectsPage extends React.Component {
                         Connect with users on your website, mobile app, the Google Assistant, Amazon Alexa, Facebook Messenger, and other popular platforms and devices.
                       </p>
 
-                      <video autoPlay loop className="photo" width="400" height="600" controls>
-                        <source className="block-content experiencesector" src={chatbot} type="video/mp4">
-                        </source>
-                      </video>
+                      <BrowserView>
+                        <video className="photo" width="400" height="600" autoPlay muted loop preload="auto">
+                          <source className="block-content experiencesector" src={chatbot} type="video/mp4">
+                          </source>
+                        </video>
+                      </BrowserView>
+
+                      <MobileView>
+                        <video className="photo" width="400" height="600" controls autoPlay muted loop preload="auto">
+                          <source className="block-content experiencesector" src={chatbot} type="video/mp4">
+                          </source>
+                        </video>
+                      </MobileView>
+
+                      <img className="projectsphoto photo" height="50px" width="300px" src={dialogflow} alt='' />
 
                       <p className="block-content experiencesector">
                         Check it out <a href="https://dialogflow.com">here</a> for more details!
                                                   </p>
                     </div>
                   </div>
+
+                  <div className="col-xs-12 col-sm-12 col-md-6">
+                    <div className="block">
+                      <h1 className="block-header block-title bg-info">How is Node Js doing in 2020? </h1>
+                      <h3 className="h3 text-info block-header block-title"> So Why Node Js? <img height="25px" src={questionMarkImage} alt='' /></h3>
+                      <p className="block-content experiencesector"><strong>Just a short introduction</strong><br /><br />
+                        Node.js open-source JavaScript run-time environment. Allowing us to leverage on Javascript runtime for server side scripting, also a command line tool
+                        that can work as a regular server and it uses the V8 Javascript Engine. It is also easy to allow developers to communicate with database easily.
+                        <br /><br />
+                        
+                        So why is so great and what can you do with it?
+                        <br/>
+                        <br/>
+                    
+
+                         <li>Social media platform (LinkedIn uses Node.js)</li>
+                         <li>Streaming services (Best example: Netflix)</li>
+                         <li>Online payment system (PayPal uses Node.js)</li>
+                         <li>Real-time project collaboration and management tool (Trello)</li>
+                         <li>Ecommerce platform (Walmart) </li>
+                         <li>Single-page applications with complex functionality</li>
+                         <li>Real-time applications</li>
+                         <li>IoT applications</li>
+                         <li>Applications using a microservices architecture</li>
+
+                        <br/>
+                      </p>
+
+                      <p className="block-content pointform words"><strong>Strenths</strong></p>
+                      <div className="bullet block-content pointform words">
+                        <ul>
+                          <li>Suitable for Modern Web Development</li>
+                          <li>Scalability and Performance</li>
+                          <li>Cross-Platform, Mobile-Friendly, And Developer-Friendly Platform</li>
+                          <li>Easy Learning Curve</li>
+                        </ul>
+                      </div>
+
+                      <br/>
+                      <br/>
+
+                      <h4>So what are you waiting for! Get started now!</h4>
+
+                      <img className="projectsphoto photo" height="355px" src={questionMarkImage} alt='' />
+                      <img className="projectsphoto photo" height="100px" src={questionMarkImage} alt='' />
+
+                    </div>
+                  </div>
                 </div>
+                
                 <div className="content content-full font-size-sm text-muted">
                   <p className="mb-1">
                     Would you like to let us know about it?
@@ -105,12 +173,10 @@ class projectsPage extends React.Component {
                   Contact me at brijq91@gmail.com or <a class="link-fx" href="/">Go Back to Main Page</a>
                 </div>
               </div>
-            </div>
+              </div>
           </main>
         </div>
-
       </body>
-
     )
   }
 }
