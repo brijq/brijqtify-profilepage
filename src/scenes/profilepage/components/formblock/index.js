@@ -26,17 +26,16 @@ class formBlock extends React.Component {
                               <div className="form-group">
                                     <div className="block">
                                               <h1 className="block-header bg-info block-title text-center">Welcome To Brijqtify!</h1>
-                                              <p className="block-content experiencesector">Are you searching for a software engineer with a proven ability to develop high-performance applications and technical innovations?
-                                                  If so, welcome to brijqtify! My technical expertise includes cross-platform proficiency (Linux, Unix)! Feel Free to know more about me!
-                                                  Of course, just like any other human, I do have hobbies and love travelling. Feel free to contact me right at the bottom of the page.</p>
+                                              <p className="block-content experiencesector">Welcome to my personal space! Feel Free to know more about me!
+                                                  I do love travelling and playing soccer at times. Feel free to contact me right at the bottom of the page.</p>
                                     </div>
                                     <div className="block">
-                    <h4 className="block-header block-title text-center bg-gray">Whatelse <img height="50px" src={questionMarkImage} alt=''/>I Explore / Do</h4>
+                    <h4 className="block-header block-title text-center bg-gray">What else <img height="50px" src={questionMarkImage} alt=''/>Find Out More about both my actual work and hobbies below</h4>
 
                                                   <div className="col-md-3 col-xl-3 projectsphoto">
                                                     <div className="block block-link-rotate text-center">
                                                       <div className="block-header">
-                                                        <h3 className="block-title"> <span className="fa fa-laptop iconsize"/>  Development Work</h3>
+                                                        <h3 className="block-title"> <span className="fa fa-laptop iconsize"/> Web / App Development</h3>
                                                       </div>
                                                       <div className="block-content bg-primary">
                                                         <div className="py-2">
@@ -45,10 +44,36 @@ class formBlock extends React.Component {
                                                       </div>
                                                       <div className="block-content">
                                                         <div className="font-size-sm py-2">
-                                                          <p> Node Js </p>
-                                                          <p> React Js </p>
-                                                          <p> Google Cloud Platform </p>
+                                                          <p> Node Js / Express Js </p>
+                                                          <p> React Js / Electron Js </p>
+                                                          <p> Google Cloud Platform / Amazon Web Services </p>
                                                           <p> Drupal / Wordpress </p>
+                                                        </div>
+                                                      </div>
+                                                      <div className="block-content block-content-full bg-body-light">
+                                                        <a href="mailto:brijq91@gmail.com">
+                                                          <span className="btn btn-square btn-primary px-4">Contact Me</span>
+                                                        </a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+
+                                                  <div className="col-md-3 col-xl-3 projectsphoto">
+                                                    <div className="block block-link-rotate text-center">
+                                                      <div className="block-header">
+                                                        <h3 className="block-title"> <span className="fa fa-lightbulb-o iconsize"/> Mobile Development</h3>
+                                                      </div>
+                                                      <div className="block-content bg-primary">
+                                                        <div className="py-2">
+                                                          <p className="h3 font-w700 text-white mb-2"> Native / Flutter</p>
+                                                        </div>
+                                                      </div>
+                                                      <div className="block-content">
+                                                        <div className="font-size-sm py-2">
+                                                          <p> Kotlin Development</p>
+                                                          <p> Flutter Development</p>
+                                                          <p> Firebase Development</p>
+                                                          <p> Cloud functions / Real Time Databases / Authentication </p>
                                                         </div>
                                                       </div>
                                                       <div className="block-content block-content-full bg-body-light">
@@ -74,7 +99,7 @@ class formBlock extends React.Component {
                                                           <p> Exploitation Discovery and Application </p>
                                                           <p> Malware Cleanup </p>
                                                           <p> Application / Servers Security Review </p>
-                                                          <p> Pentration Report Finals </p>
+                                                          <p> Pentration Report</p>
                                                         </div>
                                                       </div>
                                                       <div className="block-content block-content-full bg-body-light">
@@ -88,33 +113,7 @@ class formBlock extends React.Component {
                                                   <div className="col-md-3 col-xl-3 projectsphoto">
                                                     <div className="block block-link-rotate text-center">
                                                       <div className="block-header">
-                                                        <h3 className="block-title"> <span className="fa fa-lightbulb-o iconsize"/>  Internet Of Things</h3>
-                                                      </div>
-                                                      <div className="block-content bg-primary">
-                                                        <div className="py-2">
-                                                          <p className="h3 font-w700 text-white mb-2">Raspberry / Microbit</p>
-                                                        </div>
-                                                      </div>
-                                                      <div className="block-content">
-                                                        <div className="font-size-sm py-2">
-                                                          <p> Integration with Google Cloud </p>
-                                                          <p> Android Things </p>
-                                                          <p> Raspbian </p>
-                                                          <p> Pi Zero </p>
-                                                        </div>
-                                                      </div>
-                                                      <div className="block-content block-content-full bg-body-light">
-                                                        <a href="mailto:brijq91@gmail.com">
-                                                          <span className="btn btn-square btn-primary px-4">Contact Me</span>
-                                                        </a>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-
-                                                  <div className="col-md-3 col-xl-3 projectsphoto">
-                                                    <div className="block block-link-rotate text-center">
-                                                      <div className="block-header">
-                                                        <h3 className="block-title"> <span className="fa fa-server iconsize"/>   Machine Learning</h3>
+                                                        <h3 className="block-title"> <span className="fa fa-server iconsize"/>   Machine Learning / IOT Hobbies</h3>
                                                       </div>
                                                       <div className="block-content bg-primary">
                                                         <div className="py-2">
@@ -126,7 +125,7 @@ class formBlock extends React.Component {
                                                           <p> Integration hosting Google Cloud / TPU </p>
                                                           <p> Classification / Prediction </p>
                                                           <p> Image Recognition / Words Prediction </p>
-                                                          <p> Data Trends</p>
+                                                          <p> Raspbian / Pi Zero</p>
                                                         </div>
                                                       </div>
                                                       <div className="block-content block-content-full bg-body-light">
@@ -147,21 +146,26 @@ class formBlock extends React.Component {
                                     <div className="block">
 
                                                     <h4 className="block-header bg-info block-title"><span className="fa fa-tasks iconsize"/>  Experience</h4>
-                                                    <li className="h4 text-default-dark block-content experiencesector bg-gray-light"><strong>Current:</strong> Full-Stack Developer at Prodigious Worldwide</li>
-                                                    <p className="block-content lastsegmentprivacyforblock">Working on projects that are based on clients requirements which includes<br/>
+
+                                                    <li className="h4 text-default-dark block-content experiencesector bg-gray-light"><strong>Current:</strong> Software/DevOps Engineer at Govtech Agency</li>
+                                                    <p className="block-content lastsegmentprivacyforblock"> Development of web portal into commercial cloud project within the government sector<br/>
+                                                  
+                                                    </p>
+
+                                                    <li className="h4 text-default-dark block-content experiencesector bg-gray-light"> Software Engineer at Prodigious Worldwide</li>
+                                                    <p className="block-content lastsegmentprivacyforblock">Working on projects that are based on clients requirements which includes
                                                     various platforms including front end and back end tasks.
                                                     </p>
 
 
-                                                    <li className="h4 text-default-dark block-content experiencesector bg-gray-light">Software Web Developer at Ohpen Pte Ltd</li>
-                                                    <p className="block-content lastsegmentprivacyforblock">Leading the head tech solution decision maker based on clients demand.<br/>
-                                                        Playing multiple roles on security compliance role for softwares. Mainly<br/>
-                                                        focuses on web front-end development , CMS (Wordpress, Drupal), Security <br/>
-                                                        Server Development, Google Cloud Services and Google Adwords for marketing work.
+                                                    <li className="h4 text-default-dark block-content experiencesector bg-gray-light">Software Engineer at Ohpen Pte Ltd</li>
+                                                    <p className="block-content lastsegmentprivacyforblock">Leading the head tech solution decision maker based on clients demand.
+                                                        Playing multiple roles on security compliance role for softwares. Web front-end development , CMS (Wordpress, Drupal), Security
+                                                        Server Development, Google Cloud Services and Google Adwords for marketing work. Setting up workflow for a newly formed department in the company.
                                                     </p>
 
-                                                    <li className="h4 text-default-dark block-content experiencesector bg-gray-light">Software Web Developer at Cloudzen Tech</li>
-                                                    <p className="block-content lastsegmentprivacyforblock">Mainly focuses on web front-end development , Deployment In China, Continuous<br/>
+                                                    <li className="h4 text-default-dark block-content experiencesector bg-gray-light">Web Intern at Cloudzen Tech</li>
+                                                    <p className="block-content lastsegmentprivacyforblock">Mainly focuses on web front-end development , Deployment In China, Continuous
                                                         Integration and Unit Testing work and Database handling
                                                     </p>
 
@@ -175,6 +179,8 @@ class formBlock extends React.Component {
                               <div className="form-group">
                                     <div className="block">
 
+                                                    <h4 className="block-header bg-info block-title"><span className="fa fa-hashtag iconsize"/> Programming Languages</h4>
+                                                    <p className="h4 text-default-dark bg-gray-light educationblocktitle">Javascript, Kotlin, PHP, Dart, Java, Python</p>
 
                                                     <h4 className="block-header bg-info block-title"><span className="fa fa-certificate iconsize"/>   Education/Certifications</h4>
 
@@ -194,9 +200,6 @@ class formBlock extends React.Component {
                                                     <p className="block-content educationblock">Singapore-Cambridge GCE O-Level
                                                         Singapore Youth Flying Club
                                                   </p>
-                                                  <br/>
-
-
                                     </div>
                               </div>
                           </div>

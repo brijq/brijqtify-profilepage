@@ -9,7 +9,6 @@ import brijqtifyImage from '../../images/brijqtify.gif'
 import dialogflow from '../../images/dialogflow.png'
 import chatbot from '../../images/chatbot.MP4'
 
-
 class projectsPage extends React.Component {
   render() {
     return (
@@ -82,13 +81,13 @@ class projectsPage extends React.Component {
                     <div className="block">
                       <h1 className="block-header block-title bg-info">ChatBot with Dialogflow!, Integrate it in Facebook Messenger!</h1>
                       <img className="projectsphoto photo" height="50px" width="300px" src={dialogflow} alt='' />
-                      <h3 className="h3 text-info block-header block-title"> Feeling Tired to reply? No Problem Just Allow the bot to handle it! <img height="25px" src={questionMarkImage} alt='' /></h3>
+                      <h3 className="h3 text-info block-header block-title"> Feeling Lazy to reply? No Problem Just Allow the bot to handle it! <img height="25px" src={questionMarkImage} alt='' /></h3>
                       <p className="block-content experiencesector"><strong>Your very own assistant in chatbot! </strong><br /><br />
                         Give users new ways to interact with your product by building engaging voice and text-based conversational interfaces, such as voice apps and chatbots, powered by AI.
                         Connect with users on your website, mobile app, the Google Assistant, Amazon Alexa, Facebook Messenger, and other popular platforms and devices.
                       </p>
 
-                      <video className="photo" width="400" height="600" autoPlay loop>
+                      <video autoPlay loop className="photo" width="400" height="600" controls>
                         <source className="block-content experiencesector" src={chatbot} type="video/mp4">
                         </source>
                       </video>
